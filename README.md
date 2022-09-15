@@ -1,4 +1,4 @@
-# Navigation_TCA
+# Navigation_TCA [SwiftUI]
 
 ### The project has the objective of show Navigation between views and using [TCA](https://github.com/pointfreeco/swift-composable-architecture) to State Management 
 
