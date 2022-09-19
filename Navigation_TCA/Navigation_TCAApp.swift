@@ -12,7 +12,10 @@ import ComposableArchitecture
 struct Navigation_TCAApp: App {
     var body: some Scene {
         WindowGroup {
-            FirstView(store: Store(initialState: .init(), reducer: FirstView.State.reducer, environment: ()))
+            ContentView(store: Store(
+                initialState: AppState(),
+                reducer: AppState.appReducer,
+                environment: AppEnvironment()))
         }
     }
 }
